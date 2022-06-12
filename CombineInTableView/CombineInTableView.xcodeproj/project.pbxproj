@@ -13,6 +13,7 @@
 		01597499284B5701003FCD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01597497284B5701003FCD7E /* Main.storyboard */; };
 		0159749B284B5704003FCD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0159749A284B5704003FCD7E /* Assets.xcassets */; };
 		0159749E284B5704003FCD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0159749C284B5704003FCD7E /* LaunchScreen.storyboard */; };
+		015974A6284CF019003FCD7E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015974A5284CF019003FCD7E /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0159749A284B5704003FCD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0159749D284B5704003FCD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0159749F284B5704003FCD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015974A5284CF019003FCD7E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				01597491284B5701003FCD7E /* AppDelegate.swift */,
 				01597493284B5701003FCD7E /* SceneDelegate.swift */,
 				01597495284B5701003FCD7E /* ViewController.swift */,
+				015974A5284CF019003FCD7E /* APICaller.swift */,
 				01597497284B5701003FCD7E /* Main.storyboard */,
 				0159749A284B5704003FCD7E /* Assets.xcassets */,
 				0159749C284B5704003FCD7E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01597496284B5701003FCD7E /* ViewController.swift in Sources */,
+				015974A6284CF019003FCD7E /* APICaller.swift in Sources */,
 				01597492284B5701003FCD7E /* AppDelegate.swift in Sources */,
 				01597494284B5701003FCD7E /* SceneDelegate.swift in Sources */,
 			);
